@@ -515,11 +515,35 @@
                         </div>
                     </div>
 
-                    <!-- Flow lines -->
-                    <div class="flow-line flow-a"><span class="flow-pulse"></span></div>
-                    <div class="flow-line flow-b"><span class="flow-pulse"></span></div>
-                    <div class="flow-line flow-c"><span class="flow-pulse"></span></div>
-                    <div class="flow-line flow-d"><span class="flow-pulse"></span></div>
+                    <!-- Curved Flow Lines -->
+                    <svg class="federated-flow-lines" width="100%" height="100%" viewBox="0 0 900 480" style="position: absolute; top: 0; left: 0; pointer-events: none; z-index: 1;">
+                        <defs>
+                            <linearGradient id="line-grad-left" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(108, 185, 166, 0.1)" />
+                                <stop offset="100%" stop-color="rgba(84, 159, 196, 0.6)" />
+                            </linearGradient>
+                            <linearGradient id="line-grad-right" x1="100%" y1="0%" x2="0%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(108, 185, 166, 0.1)" />
+                                <stop offset="100%" stop-color="rgba(84, 159, 196, 0.6)" />
+                            </linearGradient>
+                        </defs>
+                        
+                        <!-- Top Left -->
+                        <path d="M 230 160 C 350 160, 350 240, 450 240" fill="none" stroke="url(#line-grad-left)" stroke-width="1.5" />
+                        <circle cx="340" cy="188" r="4" fill="#6cb9a6" />
+                        
+                        <!-- Top Right -->
+                        <path d="M 670 160 C 550 160, 550 240, 450 240" fill="none" stroke="url(#line-grad-right)" stroke-width="1.5" />
+                        <circle cx="560" cy="188" r="4" fill="#6cb9a6" />
+                        
+                        <!-- Bottom Left -->
+                        <path d="M 230 350 C 350 350, 350 240, 450 240" fill="none" stroke="url(#line-grad-left)" stroke-width="1.5" />
+                        <circle cx="340" cy="308" r="4" fill="#6cb9a6" />
+                        
+                        <!-- Bottom Right -->
+                        <path d="M 670 350 C 550 350, 550 240, 450 240" fill="none" stroke="url(#line-grad-right)" stroke-width="1.5" />
+                        <circle cx="560" cy="308" r="4" fill="#6cb9a6" />
+                    </svg>
 
                     <!-- Shared model -->
                     <div class="shared-model-card">
@@ -564,7 +588,9 @@
                     <button id="run-inference-btn" class="soc-btn-primary dashboard-action">
                         Run Inference Round
                     </button>
-                    
+                    <button id="simulate-attack-btn" class="soc-btn-danger dashboard-action">
+                        Simulate Attack
+                    </button>
                     <div class="soc-badge active">
                         ● Network Active — 3 Nodes Connected
                     </div>
@@ -668,5 +694,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
 
 
