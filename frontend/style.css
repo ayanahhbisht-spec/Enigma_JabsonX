@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0A0A0A;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+/* ==================== */
+/* NAVBAR */
+/* ==================== */
+
+.navbar {
+    height: 76px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+    background: #0A0A0A;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-links a {
+    color: #94A3B8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #FFFFFF;
+}
+
+.nav-button {
+    background: #FFFFFF;
+    color: #0A0A0A;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.nav-button:hover {
+    background: #3B82F6;
+    color: #FFFFFF;
+}
+
+/* ==================== */
+/* HERO */
+/* ==================== */
+
+.hero {
+    min-height: calc(100vh - 76px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 40px;
+}
+
+.hero-content {
+    max-width: 950px;
+}
+
+.hero-label {
+    color: #3B82F6;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 28px;
+}
+
+.hero h1 {
+    font-size: 72px;
+    line-height: 1.05;
+    letter-spacing: -3px;
+    margin-bottom: 28px;
+}
+
+.hero h1 span {
+    display: block;
+    color: #3B82F6;
+}
+
+.hero-description {
+    max-width: 680px;
+    margin: 0 auto 38px;
+    color: #94A3B8;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.primary-button,
+.secondary-button {
+    padding: 14px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.primary-button {
+    background: #FFFFFF;
+    color: #0A0A0A;
+    border: 1px solid #FFFFFF;
+}
+
+.primary-button:hover {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #FFFFFF;
+}
+
+.secondary-button {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #334155;
+}
+
+.secondary-button:hover {
+    border-color: #3B82F6;
+    color: #3B82F6;
+}
