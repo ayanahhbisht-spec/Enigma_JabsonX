@@ -1405,12 +1405,12 @@ a {
 }
 
 .institution-c {
-    bottom: 95px;
+    bottom: 220px;
     left: 60px;
 }
 
 .institution-d {
-    bottom: 95px;
+    bottom: 220px;
     right: 60px;
 }
 
@@ -3934,7 +3934,7 @@ a {
     position: absolute;
 
     left: 50%;
-    top: 50%;
+    top: 310px;
     margin-top: 40px;
 
     width: 240px;
@@ -4092,7 +4092,7 @@ a {
     width: 460px;
     min-height: 100px;
 
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 
     display: flex;
 
@@ -5053,6 +5053,7 @@ footer {
     }
 
 }
+
 
 
 
