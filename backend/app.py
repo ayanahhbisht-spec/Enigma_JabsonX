@@ -59,49 +59,6 @@ def run_inference():
         "blocked_nodes": list(aggregator.blocked_nodes)
     })
 
-@app.route("/api/simulate-attack", methods=["POST"])
-def simulate_attack_endpoint():
-    from local_nodes import RogueNodeAPI, DifferentialPrivacyWrapper
-    import pandas as pd
-    
-    # Temporarily replace insurer with rogue node
-    target = "insurer"
-    legit_api = aggregator.nodes.get(target)
-    
-    dp_wrapper = DifferentialPrivacyWrapper(noise_std=0.05, round_precision=0.1)
-    rogue_api = RogueNodeAPI(legit_api.trainer, dp_wrapper, attack_type="inversion")
-    
-    aggregator.nodes[target] = rogue_api
-    
-    # Reset trust
-    aggregator.node_trust_scores[target] = 1.0
-    if target in aggregator.blocked_nodes:
-        aggregator.blocked_nodes.remove(target)
-        
-    registry = pd.read_csv("data/hashed_id_registry.csv")
-    sample_ids = registry["hashed_customer_id"].sample(15).tolist()
-    
-    results = aggregator.run_inference_round(sample_ids, round_id=f"attack_round_{time.time()}")
-    
-    # Restore legit node
-    aggregator.nodes[target] = legit_api
-    
-    output = []
-    for hid, res in results.items():
-        output.append({
-            "customer_id": hid[:12] + "...",
-            "final_score": res.final_score,
-            "risk_tier": res.risk_tier,
-            "alerts": [a.alert_type for a in res.alerts]
-        })
-        
-    return jsonify({
-        "success": True,
-        "message": "Simulated Score Inversion Attack on Insurer Node",
-        "results": output,
-        "trust_scores": aggregator.node_trust_scores,
-        "blocked_nodes": list(aggregator.blocked_nodes)
-    })
 
 if __name__ == "__main__":
     print("=========================================================")

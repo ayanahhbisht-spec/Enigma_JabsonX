@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
    FEDRISK
    Federated Financial Intelligence
    ========================================================= */
@@ -1753,7 +1753,7 @@ a {
 
     padding: 14px 18px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     border: 1px solid rgba(59, 130, 246, 0.18);
 
@@ -3135,7 +3135,7 @@ a {
 
 
 /* =========================================================
-   RESPONSIVE — TABLET
+   RESPONSIVE â€” TABLET
    ========================================================= */
 
 @media (max-width: 1050px) {
@@ -3257,7 +3257,7 @@ a {
 
 
 /* =========================================================
-   RESPONSIVE — MOBILE
+   RESPONSIVE â€” MOBILE
    ========================================================= */
 
 @media (max-width: 700px) {
@@ -3969,12 +3969,12 @@ a {
     position: absolute;
 
     left: 50%;
-    top: 333px;
+    top: 50%;
 
     width: 240px;
     height: 180px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     text-align: center;
 
@@ -3990,7 +3990,7 @@ a {
     width: 110px;
     height: 110px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     border-radius: 50%;
 
@@ -4008,7 +4008,7 @@ a {
 
     border-radius: 50%;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     border:
         1px solid rgba(86, 156, 190, 0.38);
@@ -4040,7 +4040,7 @@ a {
     width: 40px;
     height: 40px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     display: flex;
 
@@ -4075,7 +4075,7 @@ a {
 
     width: 230px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .core-copy>span {
@@ -4126,7 +4126,7 @@ a {
     width: 460px;
     min-height: 100px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     display: flex;
 
@@ -4287,7 +4287,7 @@ a {
 
     width: 520px;
 
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
 
     display: flex;
 

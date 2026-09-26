@@ -1,4 +1,4 @@
-```html
+﻿```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -419,12 +419,12 @@
 
                 <!-- Main federated flow -->
 
-                                <div class="federated-flow">
+                                                <div class="federated-flow">
 
                     <!-- Flow Heading (Model Updates) -->
                     <div style="position: absolute; top: 15%; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; text-align: center; z-index: 10;">
                         <div style="width: 30px; height: 30px; border: 1px solid rgba(84, 159, 196, 0.3); background: rgba(50, 120, 165, 0.05); color: #72b9d6; display: flex; align-items: center; justify-content: center; font-size: 14px; margin-bottom: 8px;">
-                            ?
+                            ↗
                         </div>
                         <div>
                             <strong style="color: #dcecf5; font-size: 12px; letter-spacing: 1px;">MODEL UPDATES</strong><br>
@@ -439,7 +439,7 @@
                             <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
                         </div>
                         <div class="institution-icon">
-                            <span>�</span>
+                            <span>⌂</span>
                         </div>
                         <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">BANK</div>
                         <h3 style="margin-top: 2px;">Bank A</h3>
@@ -456,7 +456,7 @@
                             <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
                         </div>
                         <div class="institution-icon">
-                            <span>?</span>
+                            <span>⌁</span>
                         </div>
                         <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">BANK</div>
                         <h3 style="margin-top: 2px;">Bank B</h3>
@@ -473,7 +473,7 @@
                             <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
                         </div>
                         <div class="institution-icon">
-                            <span>?</span>
+                            <span>◇</span>
                         </div>
                         <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">INSURANCE</div>
                         <h3 style="margin-top: 2px;">Insurer</h3>
@@ -500,13 +500,13 @@
                         </div>
                     </div>
 
-                    <!-- Central aggregator (Replaced with FEDRISK ENGINE CSS) -->
+                    <!-- Central aggregator -->
                     <div class="federated-core">
                         <div class="core-halo"></div>
                         <div class="core-ring ring-one"></div>
                         <div class="core-ring ring-two"></div>
                         <div class="core-center">
-                            <span>?</span>
+                            <span>◉</span>
                         </div>
                         <div class="core-copy">
                             <span>FEDRISK ENGINE</span>
@@ -521,10 +521,10 @@
                     <div class="flow-line flow-c"><span class="flow-pulse"></span></div>
                     <div class="flow-line flow-d"><span class="flow-pulse"></span></div>
 
-                    <!-- Shared model (Replaced with new CSS) -->
+                    <!-- Shared model -->
                     <div class="shared-model-card">
                         <div class="output-icon">
-                            ?
+                            ◈
                         </div>
                         <div class="output-copy">
                             <span>COLLECTIVE OUTPUT</span>
@@ -564,9 +564,7 @@
                     <button id="run-inference-btn" class="soc-btn-primary dashboard-action">
                         Run Inference Round
                     </button>
-                    <button id="simulate-attack-btn" class="soc-btn-danger dashboard-action">
-                        Simulate Attack
-                    </button>
+                    
                     <div class="soc-badge active">
                         ● Network Active — 3 Nodes Connected
                     </div>
@@ -670,3 +668,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
