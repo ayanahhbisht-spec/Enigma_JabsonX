@@ -1,4 +1,4 @@
-```javascript
+
 /* =========================================================
    FEDRISK
    Federated Financial Intelligence
@@ -879,4 +879,3 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
 });
-```
