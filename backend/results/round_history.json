@@ -1,8 +1,8 @@
 [
   {
     "round_id": "full_inference_v1",
-    "timestamp": "2026-09-26T15:06:46.134528",
-    "duration_seconds": 1.529,
+    "timestamp": "2026-09-26T18:18:40.836766",
+    "duration_seconds": 1.356,
     "n_target_customers": 1000,
     "n_scored": 961,
     "n_alerts": 84,
@@ -15,8 +15,8 @@
   },
   {
     "round_id": "attack_inversion",
-    "timestamp": "2026-09-26T15:06:46.269848",
-    "duration_seconds": 0.131,
+    "timestamp": "2026-09-26T18:18:40.965901",
+    "duration_seconds": 0.126,
     "n_target_customers": 100,
     "n_scored": 87,
     "n_alerts": 2,
@@ -29,8 +29,8 @@
   },
   {
     "round_id": "attack_extreme",
-    "timestamp": "2026-09-26T15:06:46.427743",
-    "duration_seconds": 0.155,
+    "timestamp": "2026-09-26T18:18:41.094056",
+    "duration_seconds": 0.126,
     "n_target_customers": 100,
     "n_scored": 87,
     "n_alerts": 2,
@@ -43,8 +43,8 @@
   },
   {
     "round_id": "attack_random",
-    "timestamp": "2026-09-26T15:06:46.563053",
-    "duration_seconds": 0.132,
+    "timestamp": "2026-09-26T18:18:41.223165",
+    "duration_seconds": 0.126,
     "n_target_customers": 100,
     "n_scored": 92,
     "n_alerts": 6,
@@ -57,8 +57,8 @@
   },
   {
     "round_id": "attack_subtle",
-    "timestamp": "2026-09-26T15:06:46.692358",
-    "duration_seconds": 0.126,
+    "timestamp": "2026-09-26T18:18:41.350031",
+    "duration_seconds": 0.125,
     "n_target_customers": 100,
     "n_scored": 92,
     "n_alerts": 2,
