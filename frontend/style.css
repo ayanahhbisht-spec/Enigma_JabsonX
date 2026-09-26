@@ -3935,6 +3935,7 @@ a {
 
     left: 50%;
     top: 50%;
+    margin-top: 40px;
 
     width: 240px;
     height: 180px;
@@ -5052,4 +5053,7 @@ footer {
     }
 
 }
+
+
+
 
