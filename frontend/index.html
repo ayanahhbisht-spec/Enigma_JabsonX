@@ -1,14 +1,16 @@
-﻿```html
+```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>FEDRISK — Federated Financial Intelligence</title>
 
-    <meta name="description" content="Cross-institution financial risk control powered by federated learning.">
+    <meta
+        name="description"
+        content="Cross-institution financial risk control powered by federated learning."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -87,15 +89,18 @@
                 </div>
 
                 <h1>
-                    One network.<br>
-                    <span>Separate data.</span><br>
-                    Shared intelligence.
+                    One network<br>
+                    <span>Separate data</span><br>
+                    Shared intelligence
                 </h1>
 
                 <p class="hero-description">
-                    Cross-institution financial risk control powered by
-                    federated learning. Overcome siloed data and build
-                    sharper risk models without moving raw customer data.
+                   Institutions train their own 
+                   risk models using their data,
+                    then share only the risk insights, 
+                    not the raw customer data. This keeps 
+                    sensitive information private while still 
+                    helping build better risk models.
                 </p>
 
                 <div class="hero-buttons">
@@ -140,7 +145,7 @@
                         <span class="meta-icon">◉</span>
                         <div>
                             <strong>SHARED MODEL</strong>
-                            <small>Collective intelligence</small>
+                            <small>Combines insights, not data</small>
                         </div>
                     </div>
 
@@ -170,7 +175,7 @@
 
                     <h2>
                         Risk intelligence shouldn't<br>
-                        require shared customer data.
+                        require customer sharing data.
                     </h2>
 
                     <p>
@@ -212,8 +217,8 @@
                             </div>
 
                             <h3>
-                                Valuable data.<br>
-                                Separate silos.
+                                Valuable data<br>
+                                Separate silos
                             </h3>
 
                             <p>
@@ -245,8 +250,8 @@
                         </div>
 
                         <h3>
-                            Learn together.<br>
-                            Keep data local.
+                            Learn together<br>
+                            Keep data local
                         </h3>
 
                         <div class="intelligence-grid">
@@ -307,7 +312,7 @@
 
                         <h3>
                             See beyond<br>
-                            individual silos.
+                            individual silos
                         </h3>
 
                         <div class="mini-network">
@@ -403,299 +408,455 @@
                     </div>
 
                     <h2>
-                        Data stays where it belongs.<br>
-                        <span>Intelligence travels.</span>
+                        Data stays where it belongs<br>
+                        <span>Intelligence travels</span>
                     </h2>
 
                     <p>
-                        Each institution trains locally on its own data.
-                        Only model updates are contributed to the federated
-                        process, allowing the shared model to learn from
+                        Each institution locally trains on its own data.
+                       Only the changes or updates produced by each local 
+                       model are shared with the federated learning 
+                       system, allowing the shared model to learn from
                         distributed signals.
                     </p>
 
                 </div>
 
 
-                <!-- Main federated flow -->
+                <!-- Federated Learning Flow -->
 
-                                                <div class="federated-flow">
+<!-- =========================================================
+     FEDERATED NETWORK , HUMAN STATIC FLOW
+========================================================= -->
 
-                    <!-- Flow Heading (Model Updates) -->
-                    <div style="position: absolute; top: 15%; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; text-align: center; z-index: 10;">
-                        <div style="width: 30px; height: 30px; border: 1px solid rgba(84, 159, 196, 0.3); background: rgba(50, 120, 165, 0.05); color: #72b9d6; display: flex; align-items: center; justify-content: center; font-size: 14px; margin-bottom: 8px;">
-                            ↗
-                        </div>
-                        <div>
-                            <strong style="color: #dcecf5; font-size: 12px; letter-spacing: 1px;">MODEL UPDATES</strong><br>
-                            <span style="color: rgba(156, 182, 201, 0.5); font-size: 9px;">Only learned patterns travel</span>
-                        </div>
-                    </div>
+<div class="federated-flow">
 
-                    <!-- Institution A -->
-                    <div class="institution-node institution-a">
-                        <div class="institution-header" style="justify-content: space-between;">
-                            <span>01</span>
-                            <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
-                        </div>
-                        <div class="institution-icon">
-                            <span>⌂</span>
-                        </div>
-                        <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">BANK</div>
-                        <h3 style="margin-top: 2px;">Bank A</h3>
-                        <p style="font-size: 9px; color: rgba(148, 163, 184, 0.7); line-height: 1.4; margin-top: 8px; margin-bottom: 15px;">Learns from its own customer risk patterns.</p>
-                        <div class="institution-label" style="display:flex; align-items:center; gap:6px;">
-                            <span class="node-status" style="background:#10B981; width:4px; height:4px;"></span> DATA STAYS HERE
-                        </div>
-                    </div>
+    <!-- =====================================================
+         FLOW INTRO
+    ====================================================== -->
 
-                    <!-- Institution B -->
-                    <div class="institution-node institution-b">
-                        <div class="institution-header" style="justify-content: space-between;">
-                            <span>02</span>
-                            <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
-                        </div>
-                        <div class="institution-icon">
-                            <span>⌁</span>
-                        </div>
-                        <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">BANK</div>
-                        <h3 style="margin-top: 2px;">Bank B</h3>
-                        <p style="font-size: 9px; color: rgba(148, 163, 184, 0.7); line-height: 1.4; margin-top: 8px; margin-bottom: 15px;">Learns from its own transaction behaviour.</p>
-                        <div class="institution-label" style="display:flex; align-items:center; gap:6px;">
-                            <span class="node-status" style="background:#10B981; width:4px; height:4px;"></span> DATA STAYS HERE
-                        </div>
-                    </div>
+    <div class="flow-heading">
 
-                    <!-- Institution C -->
-                    <div class="institution-node institution-c">
-                        <div class="institution-header" style="justify-content: space-between;">
-                            <span>03</span>
-                            <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
-                        </div>
-                        <div class="institution-icon">
-                            <span>◇</span>
-                        </div>
-                        <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">INSURANCE</div>
-                        <h3 style="margin-top: 2px;">Insurer</h3>
-                        <p style="font-size: 9px; color: rgba(148, 163, 184, 0.7); line-height: 1.4; margin-top: 8px; margin-bottom: 15px;">Contributes signals from its own risk environment.</p>
-                        <div class="institution-label" style="display:flex; align-items:center; gap:6px;">
-                            <span class="node-status" style="background:#10B981; width:4px; height:4px;"></span> DATA STAYS HERE
-                        </div>
-                    </div>
+        <span class="flow-kicker">THE FEDERATED LOOP</span>
 
-                    <!-- Institution D -->
-                    <div class="institution-node institution-d">
-                        <div class="institution-header" style="justify-content: space-between;">
-                            <span>04</span>
-                            <span style="display:flex; align-items:center; gap:5px;"><span class="node-status" style="background:#10B981;"></span> ONLINE</span>
-                        </div>
-                        <div class="institution-icon">
-                            <span>+</span>
-                        </div>
-                        <div style="font-size: 7px; color: #475569; letter-spacing: 1.5px; margin-top: 15px;">LENDING</div>
-                        <h3 style="margin-top: 2px;">Lending</h3>
-                        <p style="font-size: 9px; color: rgba(148, 163, 184, 0.7); line-height: 1.4; margin-top: 8px; margin-bottom: 15px;">Adds credit signals without exposing customer records.</p>
-                        <div class="institution-label" style="display:flex; align-items:center; gap:6px;">
-                            <span class="node-status" style="background:#10B981; width:4px; height:4px;"></span> DATA STAYS HERE
-                        </div>
-                    </div>
+        <h3>
+            Everyone learns.
+            <span>No one shares their raw data.</span>
+        </h3>
 
-                    <!-- Central aggregator -->
-                    <div class="federated-core">
-                        <div class="core-halo"></div>
-                        <div class="core-ring ring-one"></div>
-                        <div class="core-ring ring-two"></div>
-                        <div class="core-center">
-                            <span>◉</span>
-                        </div>
-                        <div class="core-copy">
-                            <span>FEDRISK ENGINE</span>
-                            <strong>Federated Aggregation</strong>
-                            <p>Combines what each institution learned.</p>
-                        </div>
-                    </div>
+        <p>
+            Each institution learns from its own data,
+            then shares only what the model learned.
+        </p>
 
-                    <!-- Curved Flow Lines -->
-                    <svg class="federated-flow-lines" width="100%" height="100%" viewBox="0 0 900 750" style="position: absolute; top: 0; left: 0; pointer-events: none; z-index: 1;">
-                        <defs>
-                            <linearGradient id="line-grad-left" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stop-color="rgba(108, 185, 166, 0.1)" />
-                                <stop offset="100%" stop-color="rgba(84, 159, 196, 0.6)" />
-                            </linearGradient>
-                            <linearGradient id="line-grad-right" x1="100%" y1="0%" x2="0%" y2="0%">
-                                <stop offset="0%" stop-color="rgba(108, 185, 166, 0.1)" />
-                                <stop offset="100%" stop-color="rgba(84, 159, 196, 0.6)" />
-                            </linearGradient>
-                        </defs>
-                        
-                        <!-- Top Left -->
-                        <path d="M 280 165 C 380 165, 380 310, 450 310" fill="none" stroke="url(#line-grad-left)" stroke-width="1.5" />
-                        <circle cx="360" cy="225" r="4" fill="#6cb9a6" />
-                        
-                        <!-- Top Right -->
-                        <path d="M 620 165 C 520 165, 520 310, 450 310" fill="none" stroke="url(#line-grad-right)" stroke-width="1.5" />
-                        <circle cx="540" cy="225" r="4" fill="#6cb9a6" />
-                        
-                        <!-- Bottom Left -->
-                        <path d="M 280 430 C 380 430, 380 310, 450 310" fill="none" stroke="url(#line-grad-left)" stroke-width="1.5" />
-                        <circle cx="360" cy="380" r="4" fill="#6cb9a6" />
-                        
-                        <!-- Bottom Right -->
-                        <path d="M 620 430 C 520 430, 520 310, 450 310" fill="none" stroke="url(#line-grad-right)" stroke-width="1.5" />
-                        <circle cx="540" cy="380" r="4" fill="#6cb9a6" />
-                    </svg>
-
-                    <!-- Shared model -->
-                    <div class="shared-model-card">
-                        <div class="output-icon">
-                            ◈
-                        </div>
-                        <div class="output-copy">
-                            <span>COLLECTIVE OUTPUT</span>
-                            <h4>Shared Risk Model</h4>
-                            <p>Learns from the network without collecting the network's raw data.</p>
-                        </div>
-                        <div class="output-indicator">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                    
-                    <!-- Human Note -->
-                    <div class="human-note">
-                        <div class="note-line"></div>
-                        <p>This ensures <strong>zero data movement</strong> across institutional boundaries.</p>
-                        <div class="note-line"></div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- =========================================
-             SOC DASHBOARD
-        ========================================== -->
-        <section id="soc-dashboard">
-            <div class="soc-container">
-                <div class="soc-header">
-                    <h2>Network Operations Center</h2>
-                    <p>Live Monitoring & Federated Inference Management</p>
-                </div>
-
-                <div class="soc-control-bar">
-                    <button id="run-inference-btn" class="soc-btn-primary dashboard-action">
-                        Run Inference Round
-                    </button>
-                    <button id="simulate-attack-btn" class="soc-btn-danger dashboard-action">
-                        Simulate Attack
-                    </button>
-                    <div class="soc-badge active">
-                        ● Network Active — 3 Nodes Connected
-                    </div>
-                </div>
-
-                <!-- Threat Banner (Hidden by default) -->
-                <div id="threat-banner" class="soc-threat-banner">
-                    <div class="threat-header">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-                        Score Inversion Attack Detected
-                    </div>
-                    <div class="threat-details">
-                        Target: <strong>Insurer Node (Quarantined)</strong><br>
-                        Defense Action: <strong>Bayesian Outlier Filter Triggered — Malicious Gradient Dropped</strong>
-                    </div>
-                </div>
-
-                <!-- Node Grid -->
-                <div class="soc-node-grid">
-                    <!-- Bank Node -->
-                    <div class="soc-card" id="card-bank">
-                        <div class="soc-card-header">
-                            <div class="soc-card-title">Bank Node</div>
-                            <div class="soc-status-badge healthy" id="status-bank">HEALTHY / ONLINE</div>
-                        </div>
-                        <div class="soc-trust-score">
-                            <div class="soc-trust-value high" id="score-bank">100%</div>
-                            <div class="soc-progress-bg">
-                                <div class="soc-progress-fill high" id="progress-bank" style="width: 100%;"></div>
-                            </div>
-                        </div>
-                        <div class="soc-card-footer" id="footer-bank">
-                            Features: Repayment history, credit lines
-                        </div>
-                    </div>
-
-                    <!-- Insurer Node -->
-                    <div class="soc-card" id="card-insurer">
-                        <div class="soc-card-header">
-                            <div class="soc-card-title">Insurer Node</div>
-                            <div class="soc-status-badge healthy" id="status-insurer">HEALTHY / ONLINE</div>
-                        </div>
-                        <div class="soc-trust-score">
-                            <div class="soc-trust-value high" id="score-insurer">100%</div>
-                            <div class="soc-progress-bg">
-                                <div class="soc-progress-fill high" id="progress-insurer" style="width: 100%;"></div>
-                            </div>
-                        </div>
-                        <div class="soc-card-footer" id="footer-insurer">
-                            Features: Claims, coverage limits
-                        </div>
-                    </div>
-
-                    <!-- Lending App Node -->
-                    <div class="soc-card" id="card-lending_app">
-                        <div class="soc-card-header">
-                            <div class="soc-card-title">Lending App Node</div>
-                            <div class="soc-status-badge healthy" id="status-lending_app">HEALTHY / ONLINE</div>
-                        </div>
-                        <div class="soc-trust-score">
-                            <div class="soc-trust-value high" id="score-lending_app">100%</div>
-                            <div class="soc-progress-bg">
-                                <div class="soc-progress-fill high" id="progress-lending_app" style="width: 100%;"></div>
-                            </div>
-                        </div>
-                        <div class="soc-card-footer" id="footer-lending_app">
-                            Features: Micro-loan velocity, app telemetry
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Data Table -->
-                <div class="soc-table-wrapper" id="results-table-wrapper" style="display: none;">
-                    <table class="soc-table">
-                        <thead>
-                            <tr>
-                                <th>Customer ID (Hashed)</th>
-                                <th>Risk Score</th>
-                                <th>Risk Tier</th>
-                                <th>Security Anomaly</th>
-                            </tr>
-                        </thead>
-                        <tbody id="results-table-body">
-                            <!-- Rows injected by JS -->
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Raw Log Drawer -->
-                <div class="soc-raw-log">
-                    <button class="soc-log-toggle" id="log-toggle-btn">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 14 10 14 10 20"></polyline><polyline points="20 10 14 10 14 4"></polyline><line x1="14" y1="10" x2="21" y2="3"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
-                        View Raw Cryptographic Log
-                    </button>
-                    <pre class="soc-log-content" id="results-output"></pre>
-                </div>
-            </div>
-        </section>
-
-    </main>
-    <script src="script.js"></script>
-</body>
-</html>
+    </div>
 
 
+    <!-- =====================================================
+         CONNECTION MAP
+         This stays behind the cards and remains completely
+         static , like the hand drawn flow you showed.
+    ====================================================== -->
+
+    <svg
+        class="federated-map"
+        viewBox="0 0 1000 680"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+    >
+
+        <!-- TOP LEFT , BANK A → ENGINE -->
+
+        <path
+            class="network-path"
+            d="M 225 205
+               C 300 205, 365 235, 430 300
+               C 455 325, 475 335, 490 340"
+        />
+
+        <!-- TOP RIGHT , BANK B → ENGINE -->
+
+        <path
+            class="network-path"
+            d="M 775 205
+               C 700 205, 635 235, 570 300
+               C 545 325, 525 335, 510 340"
+        />
+
+        <!-- BOTTOM LEFT , INSURER → ENGINE -->
+
+        <path
+            class="network-path"
+            d="M 225 475
+               C 300 475, 365 445, 430 380
+               C 455 355, 475 345, 490 340"
+        />
+
+        <!-- BOTTOM RIGHT , LENDING → ENGINE -->
+
+        <path
+            class="network-path"
+            d="M 775 475
+               C 700 475, 635 445, 570 380
+               C 545 355, 525 345, 510 340"
+        />
 
 
+        <!-- SMALL HUMAN , HAND DRAWN STYLE , CONNECTION POINTS -->
 
+        <circle class="network-dot" cx="345" cy="238" r="4" />
+        <circle class="network-dot" cx="655" cy="238" r="4" />
+
+        <circle class="network-dot" cx="345" cy="442" r="4" />
+        <circle class="network-dot" cx="655" cy="442" r="4" />
+
+        <circle class="network-dot small" cx="425" cy="298" r="3" />
+        <circle class="network-dot small" cx="575" cy="298" r="3" />
+
+        <circle class="network-dot small" cx="425" cy="382" r="3" />
+        <circle class="network-dot small" cx="575" cy="382" r="3" />
+
+    </svg>
+
+
+    <!-- =====================================================
+         BANK A
+    ====================================================== -->
+
+    <div class="institution-card bank-a">
+
+        <div class="card-top">
+
+            <span class="institution-number">
+                01
+            </span>
+
+            <span class="institution-status">
+                <i></i>
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="institution-visual">
+            <div class="institution-symbol">⌂</div>
+        </div>
+
+
+        <div class="institution-info">
+
+            <span class="institution-tag">
+                BANK
+            </span>
+
+            <h4>
+                Bank A
+            </h4>
+
+            <p>
+                Learns from its own
+                customer risk patterns.
+            </p>
+
+        </div>
+
+
+        <div class="local-protection">
+
+            <span class="protection-dot"></span>
+
+            DATA STAYS HERE
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BANK B
+    ====================================================== -->
+
+    <div class="institution-card bank-b">
+
+        <div class="card-top">
+
+            <span class="institution-number">
+                02
+            </span>
+
+            <span class="institution-status">
+                <i></i>
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="institution-visual">
+            <div class="institution-symbol">⌁</div>
+        </div>
+
+
+        <div class="institution-info">
+
+            <span class="institution-tag">
+                BANK
+            </span>
+
+            <h4>
+                Bank B
+            </h4>
+
+            <p>
+                Learns from its own
+                transaction behaviour.
+            </p>
+
+        </div>
+
+
+        <div class="local-protection">
+
+            <span class="protection-dot"></span>
+
+            DATA STAYS HERE
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         INSURER
+    ====================================================== -->
+
+    <div class="institution-card insurer">
+
+        <div class="card-top">
+
+            <span class="institution-number">
+                03
+            </span>
+
+            <span class="institution-status">
+                <i></i>
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="institution-visual">
+            <div class="institution-symbol">◇</div>
+        </div>
+
+
+        <div class="institution-info">
+
+            <span class="institution-tag">
+                INSURANCE
+            </span>
+
+            <h4>
+                Insurer
+            </h4>
+
+            <p>
+                Contributes signals from
+                its own risk environment.
+            </p>
+
+        </div>
+
+
+        <div class="local-protection">
+
+            <span class="protection-dot"></span>
+
+            DATA STAYS HERE
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         LENDING
+    ====================================================== -->
+
+    <div class="institution-card lending">
+
+        <div class="card-top">
+
+            <span class="institution-number">
+                04
+            </span>
+
+            <span class="institution-status">
+                <i></i>
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="institution-visual">
+            <div class="institution-symbol">+</div>
+        </div>
+
+
+        <div class="institution-info">
+
+            <span class="institution-tag">
+                LENDING
+            </span>
+
+            <h4>
+                Lending
+            </h4>
+
+            <p>
+                Adds credit signals without
+                exposing customer records.
+            </p>
+
+        </div>
+
+
+        <div class="local-protection">
+
+            <span class="protection-dot"></span>
+
+            DATA STAYS HERE
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MODEL UPDATES LABEL
+    ====================================================== -->
+
+    <div class="update-explanation">
+
+        <div class="update-icon">
+            ↗
+        </div>
+
+        <div>
+
+            <strong>
+                MODEL UPDATES
+            </strong>
+
+            <span>
+                Only learned patterns travel
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         CENTRAL FEDERATED ENGINE
+    ====================================================== -->
+
+    <div class="federated-core">
+
+        <div class="core-halo"></div>
+
+        <div class="core-ring ring-one"></div>
+
+        <div class="core-ring ring-two"></div>
+
+        <div class="core-center">
+
+            <span>
+                ◉
+            </span>
+
+        </div>
+
+
+        <div class="core-copy">
+
+            <span>
+                FEDRISK ENGINE
+            </span>
+
+            <strong>
+                Federated Aggregation
+            </strong>
+
+            <p>
+                Combines what each institution learned.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         SHARED MODEL
+    ====================================================== -->
+
+    <div class="shared-model-card">
+
+        <div class="output-icon">
+            ◈
+        </div>
+
+
+        <div class="output-copy">
+
+            <span>
+                COLLECTIVE OUTPUT
+            </span>
+
+            <h4>
+                Shared Risk Model
+            </h4>
+
+            <p>
+                Learns from the network without
+                collecting the network's raw data.
+            </p>
+
+        </div>
+
+
+        <div class="output-indicator">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HUMAN EXPLANATION
+    ====================================================== -->
+
+    <div class="human-note">
+
+        <span class="note-line"></span>
+
+        <p>
+            Think of it like four teams comparing
+            <strong>what they learned</strong>,
+            without handing over their files.
+        </p>
+
+        <span class="note-line"></span>
+
+    </div>
+
+</div>
