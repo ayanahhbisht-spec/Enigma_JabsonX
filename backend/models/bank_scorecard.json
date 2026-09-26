@@ -1,0 +1,77 @@
+{
+  "feature_weights": {
+    "repayment_on_time_ratio": 0.3,
+    "debt_to_income_ratio": 0.2,
+    "cheque_bounces_12m": 0.15,
+    "overdraft_usage_ratio": 0.1,
+    "txn_velocity_anomaly": 0.1,
+    "account_vintage_months": 0.05,
+    "balance_trend_3m_inr": 0.05,
+    "monthly_income_inr": 0.025,
+    "credit_score_cibil": 0.025
+  },
+  "feature_stats": {
+    "repayment_on_time_ratio": {
+      "min": 0.4286,
+      "max": 1.0,
+      "mean": 0.8069566666666667,
+      "std": 0.13710592857260123
+    },
+    "debt_to_income_ratio": {
+      "min": 0.0,
+      "max": 0.9455,
+      "mean": 0.3659348,
+      "std": 0.19766368634499523
+    },
+    "balance_trend_3m_inr": {
+      "min": -10768.45,
+      "max": 19157.6,
+      "mean": 4310.972786666666,
+      "std": 4989.857940163225
+    },
+    "cheque_bounces_12m": {
+      "min": 0.0,
+      "max": 8.0,
+      "mean": 1.5733333333333333,
+      "std": 1.642829085884914
+    },
+    "overdraft_usage_ratio": {
+      "min": 0.0,
+      "max": 0.8051,
+      "mean": 0.23442506666666668,
+      "std": 0.17666453432588086
+    },
+    "account_vintage_months": {
+      "min": 1.0,
+      "max": 173.0,
+      "mean": 84.56666666666666,
+      "std": 36.55692502447677
+    },
+    "txn_velocity_anomaly": {
+      "min": -1.5311,
+      "max": 3.3613,
+      "mean": 0.6512220000000001,
+      "std": 0.9189662963284981
+    },
+    "monthly_income_inr": {
+      "min": 8000.0,
+      "max": 140678.0,
+      "mean": 70065.30533333334,
+      "std": 25708.77612995684
+    },
+    "credit_score_cibil": {
+      "min": 306.0,
+      "max": 889.0,
+      "mean": 657.9266666666666,
+      "std": 133.00282060646154
+    }
+  },
+  "metrics": {
+    "institution": "bank",
+    "n_samples": 750,
+    "n_features": 9,
+    "test_auc_roc": 0.994,
+    "cv_auc_mean": 0.9975,
+    "cv_auc_std": 0.0015
+  }
+}

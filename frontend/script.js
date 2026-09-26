@@ -532,7 +532,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const demoButtons =
         document.querySelectorAll(
-            ".primary-button, .nav-button"
+            ".primary-button:not(.dashboard-action), .nav-button"
         );
 
     demoButtons.forEach(button => {
@@ -780,56 +780,177 @@ document.addEventListener("DOMContentLoaded", () => {
        SYSTEM STATUS CLOCK
        ===================================================== */
 
-    const footerMeta =
-        document.querySelector(".footer-meta");
+    /* =====================================================
+       SOC DASHBOARD (API CONNECTION & UI UPDATES)
+       ===================================================== */
+    
+    const runBtn = document.getElementById("run-inference-btn");
+    const attackBtn = document.getElementById("simulate-attack-btn");
+    const threatBanner = document.getElementById("threat-banner");
+    const resultsTableWrapper = document.getElementById("results-table-wrapper");
+    const resultsTableBody = document.getElementById("results-table-body");
+    const logToggleBtn = document.getElementById("log-toggle-btn");
+    const resultsOutput = document.getElementById("results-output");
 
-    if (footerMeta) {
-
-        const clock =
-            document.createElement("span");
-
-        clock.className =
-            "live-clock";
-
-        footerMeta.appendChild(clock);
-
-
-        function updateClock() {
-
-            const now =
-                new Date();
-
-            const hours =
-                now.getHours()
-                    .toString()
-                    .padStart(2, "0");
-
-            const minutes =
-                now.getMinutes()
-                    .toString()
-                    .padStart(2, "0");
-
-            const seconds =
-                now.getSeconds()
-                    .toString()
-                    .padStart(2, "0");
-
-            clock.textContent =
-                `SYSTEM TIME // ${hours}:${minutes}:${seconds}`;
-
-        }
-
-
-        updateClock();
-
-        setInterval(
-            updateClock,
-            1000
-        );
-
+    // Toggle Raw Log
+    if (logToggleBtn) {
+        logToggleBtn.addEventListener("click", () => {
+            resultsOutput.classList.toggle("open");
+        });
     }
 
+    function updateNodeCards(trustScores, blockedNodes) {
+        const nodes = ["bank", "insurer", "lending_app"];
+        
+        nodes.forEach(node => {
+            const score = trustScores[node] !== undefined ? trustScores[node] : 1.0;
+            const isBlocked = blockedNodes.includes(node);
+            
+            const statusEl = document.getElementById(`status-${node}`);
+            const scoreEl = document.getElementById(`score-${node}`);
+            const progressEl = document.getElementById(`progress-${node}`);
+            
+            if (statusEl && scoreEl && progressEl) {
+                // Update Score Text
+                const pct = Math.round(score * 100);
+                scoreEl.textContent = `${pct}%`;
+                
+                // Update Progress Bar
+                progressEl.style.width = `${pct}%`;
+                
+                // Remove old classes
+                statusEl.className = "soc-status-badge";
+                scoreEl.className = "soc-trust-value";
+                progressEl.className = "soc-progress-fill";
+                
+                if (isBlocked) {
+                    statusEl.classList.add("quarantined");
+                    statusEl.textContent = "COMPROMISED / QUARANTINED";
+                    scoreEl.classList.add("low");
+                    progressEl.classList.add("low");
+                } else if (score < 1.0) {
+                    statusEl.classList.add("degraded");
+                    statusEl.textContent = "ONLINE / DEGRADED";
+                    scoreEl.classList.add("medium");
+                    progressEl.classList.add("medium");
+                } else {
+                    statusEl.classList.add("healthy");
+                    statusEl.textContent = "HEALTHY / ONLINE";
+                    scoreEl.classList.add("high");
+                    progressEl.classList.add("high");
+                }
+            }
+        });
+    }
 
+    function updateDataTable(results) {
+        resultsTableWrapper.style.display = "block";
+        resultsTableBody.innerHTML = "";
+        
+        results.forEach(res => {
+            const tr = document.createElement("tr");
+            
+            // Customer ID
+            const tdId = document.createElement("td");
+            tdId.innerHTML = `<span class="code-capsule">${res.customer_id}</span>`;
+            
+            // Risk Score
+            const tdScore = document.createElement("td");
+            const pct = Math.round(res.final_score * 100);
+            let color = "#10B981";
+            if (res.final_score > 0.4) color = "#F59E0B";
+            if (res.final_score > 0.7) color = "#EF4444";
+            
+            tdScore.innerHTML = `
+                <div class="score-cell">
+                    <span class="score-val">${res.final_score.toFixed(3)}</span>
+                    <div class="score-meter">
+                        <div class="score-meter-fill" style="width: ${pct}%; background: ${color};"></div>
+                    </div>
+                </div>
+            `;
+            
+            // Risk Tier
+            const tdTier = document.createElement("td");
+            tdTier.innerHTML = `<span class="tier-pill tier-${res.risk_tier}">${res.risk_tier}</span>`;
+            
+            // Anomalies
+            const tdAnomaly = document.createElement("td");
+            if (res.alerts && res.alerts.length > 0) {
+                tdAnomaly.innerHTML = `<span class="anomaly-tag flagged">⚠ ${res.alerts.join(", ")}</span>`;
+            } else {
+                tdAnomaly.innerHTML = `<span class="anomaly-tag">None / Passed</span>`;
+            }
+            
+            tr.appendChild(tdId);
+            tr.appendChild(tdScore);
+            tr.appendChild(tdTier);
+            tr.appendChild(tdAnomaly);
+            
+            resultsTableBody.appendChild(tr);
+        });
+    }
+
+    function updateRawLog(data) {
+        resultsOutput.textContent = JSON.stringify(data, null, 2);
+    }
+
+    function displayResults(data, attackMode = false) {
+        // Handle Threat Banner
+        if (attackMode) {
+            threatBanner.style.display = "block";
+        } else {
+            threatBanner.style.display = "none";
+        }
+        
+        updateNodeCards(data.trust_scores, data.blocked_nodes);
+        if (data.results) {
+            updateDataTable(data.results);
+        }
+        updateRawLog(data);
+    }
+
+    if (runBtn) {
+        runBtn.addEventListener("click", () => {
+            runBtn.textContent = "Running Inference...";
+            runBtn.disabled = true;
+            
+            fetch("/api/run-inference", { method: "POST" })
+                .then(res => res.json())
+                .then(data => {
+                    displayResults(data, false);
+                })
+                .catch(err => {
+                    console.error(err);
+                })
+                .finally(() => {
+                    runBtn.textContent = "Run Inference Round";
+                    runBtn.disabled = false;
+                });
+        });
+    }
+
+    if (attackBtn) {
+        attackBtn.addEventListener("click", () => {
+            attackBtn.textContent = "Simulating...";
+            attackBtn.disabled = true;
+            
+            fetch("/api/simulate-attack", { method: "POST" })
+                .then(res => res.json())
+                .then(data => {
+                    displayResults(data, true);
+                })
+                .catch(err => {
+                    console.error(err);
+                })
+                .finally(() => {
+                    attackBtn.textContent = "Simulate Attack";
+                    attackBtn.disabled = false;
+                });
+        });
+    }
+
+    /* Clock code removed to fix syntax error */
     /* =====================================================
        KEYBOARD ACCESSIBILITY
        ===================================================== */

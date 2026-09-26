@@ -1,0 +1,70 @@
+{
+  "feature_weights": {
+    "active_loans_across_apps": 0.25,
+    "micro_repayment_consistency": 0.2,
+    "utility_bill_regularity": 0.15,
+    "geolocation_consistency": 0.1,
+    "app_engagement_score": 0.1,
+    "days_since_last_request": 0.08,
+    "phone_model_tier": 0.06,
+    "social_refs_verified": 0.06
+  },
+  "feature_stats": {
+    "active_loans_across_apps": {
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 2.4383333333333335,
+      "std": 2.0098747597313698
+    },
+    "micro_repayment_consistency": {
+      "min": 0.221,
+      "max": 1.0,
+      "mean": 0.7733358333333332,
+      "std": 0.16912057083168885
+    },
+    "app_engagement_score": {
+      "min": 0.1665,
+      "max": 0.9873,
+      "mean": 0.6094048333333333,
+      "std": 0.15808706744954465
+    },
+    "utility_bill_regularity": {
+      "min": 0.4786,
+      "max": 1.0,
+      "mean": 0.8362021666666667,
+      "std": 0.12679715563226546
+    },
+    "geolocation_consistency": {
+      "min": 0.1268,
+      "max": 1.0,
+      "mean": 0.6330118333333333,
+      "std": 0.19752392550072068
+    },
+    "days_since_last_request": {
+      "min": 13.0,
+      "max": 294.0,
+      "mean": 133.5,
+      "std": 49.46700895504259
+    },
+    "phone_model_tier": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 2.8116666666666665,
+      "std": 1.446726968167431
+    },
+    "social_refs_verified": {
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 2.888333333333333,
+      "std": 1.9712111364496177
+    }
+  },
+  "metrics": {
+    "institution": "lending_app",
+    "n_samples": 600,
+    "n_features": 8,
+    "test_auc_roc": 0.9924,
+    "cv_auc_mean": 0.9918,
+    "cv_auc_std": 0.0021
+  }
+}

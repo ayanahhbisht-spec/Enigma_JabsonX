@@ -1,16 +1,14 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>FEDRISK — Federated Financial Intelligence</title>
 
-    <meta
-        name="description"
-        content="Cross-institution financial risk control powered by federated learning."
-    >
+    <meta name="description" content="Cross-institution financial risk control powered by federated learning.">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -595,4 +593,129 @@
                         <div class="model-signal">
                             <span></span>
                             <span></span>
-```
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+             SOC DASHBOARD
+        ========================================== -->
+        <section id="soc-dashboard">
+            <div class="soc-container">
+                <div class="soc-header">
+                    <h2>Network Operations Center</h2>
+                    <p>Live Monitoring & Federated Inference Management</p>
+                </div>
+
+                <div class="soc-control-bar">
+                    <button id="run-inference-btn" class="soc-btn-primary dashboard-action">
+                        Run Inference Round
+                    </button>
+                    <button id="simulate-attack-btn" class="soc-btn-danger dashboard-action">
+                        Simulate Attack
+                    </button>
+                    <div class="soc-badge active">
+                        ● Network Active — 3 Nodes Connected
+                    </div>
+                </div>
+
+                <!-- Threat Banner (Hidden by default) -->
+                <div id="threat-banner" class="soc-threat-banner">
+                    <div class="threat-header">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                        Score Inversion Attack Detected
+                    </div>
+                    <div class="threat-details">
+                        Target: <strong>Insurer Node (Quarantined)</strong><br>
+                        Defense Action: <strong>Bayesian Outlier Filter Triggered — Malicious Gradient Dropped</strong>
+                    </div>
+                </div>
+
+                <!-- Node Grid -->
+                <div class="soc-node-grid">
+                    <!-- Bank Node -->
+                    <div class="soc-card" id="card-bank">
+                        <div class="soc-card-header">
+                            <div class="soc-card-title">Bank Node</div>
+                            <div class="soc-status-badge healthy" id="status-bank">HEALTHY / ONLINE</div>
+                        </div>
+                        <div class="soc-trust-score">
+                            <div class="soc-trust-value high" id="score-bank">100%</div>
+                            <div class="soc-progress-bg">
+                                <div class="soc-progress-fill high" id="progress-bank" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="soc-card-footer" id="footer-bank">
+                            Features: Repayment history, credit lines
+                        </div>
+                    </div>
+
+                    <!-- Insurer Node -->
+                    <div class="soc-card" id="card-insurer">
+                        <div class="soc-card-header">
+                            <div class="soc-card-title">Insurer Node</div>
+                            <div class="soc-status-badge healthy" id="status-insurer">HEALTHY / ONLINE</div>
+                        </div>
+                        <div class="soc-trust-score">
+                            <div class="soc-trust-value high" id="score-insurer">100%</div>
+                            <div class="soc-progress-bg">
+                                <div class="soc-progress-fill high" id="progress-insurer" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="soc-card-footer" id="footer-insurer">
+                            Features: Claims, coverage limits
+                        </div>
+                    </div>
+
+                    <!-- Lending App Node -->
+                    <div class="soc-card" id="card-lending_app">
+                        <div class="soc-card-header">
+                            <div class="soc-card-title">Lending App Node</div>
+                            <div class="soc-status-badge healthy" id="status-lending_app">HEALTHY / ONLINE</div>
+                        </div>
+                        <div class="soc-trust-score">
+                            <div class="soc-trust-value high" id="score-lending_app">100%</div>
+                            <div class="soc-progress-bg">
+                                <div class="soc-progress-fill high" id="progress-lending_app" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="soc-card-footer" id="footer-lending_app">
+                            Features: Micro-loan velocity, app telemetry
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Table -->
+                <div class="soc-table-wrapper" id="results-table-wrapper" style="display: none;">
+                    <table class="soc-table">
+                        <thead>
+                            <tr>
+                                <th>Customer ID (Hashed)</th>
+                                <th>Risk Score</th>
+                                <th>Risk Tier</th>
+                                <th>Security Anomaly</th>
+                            </tr>
+                        </thead>
+                        <tbody id="results-table-body">
+                            <!-- Rows injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Raw Log Drawer -->
+                <div class="soc-raw-log">
+                    <button class="soc-log-toggle" id="log-toggle-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 14 10 14 10 20"></polyline><polyline points="20 10 14 10 14 4"></polyline><line x1="14" y1="10" x2="21" y2="3"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+                        View Raw Cryptographic Log
+                    </button>
+                    <pre class="soc-log-content" id="results-output"></pre>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

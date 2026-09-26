@@ -1,0 +1,72 @@
+[
+  {
+    "round_id": "full_inference_v1",
+    "timestamp": "2026-09-26T15:06:46.134528",
+    "duration_seconds": 1.529,
+    "n_target_customers": 1000,
+    "n_scored": 961,
+    "n_alerts": 84,
+    "blocked_nodes": [],
+    "node_trust": {
+      "bank": 1.0,
+      "lending_app": 1.0,
+      "insurer": 1.0
+    }
+  },
+  {
+    "round_id": "attack_inversion",
+    "timestamp": "2026-09-26T15:06:46.269848",
+    "duration_seconds": 0.131,
+    "n_target_customers": 100,
+    "n_scored": 87,
+    "n_alerts": 2,
+    "blocked_nodes": [],
+    "node_trust": {
+      "bank": 1.0,
+      "lending_app": 1.0,
+      "insurer": 0.5
+    }
+  },
+  {
+    "round_id": "attack_extreme",
+    "timestamp": "2026-09-26T15:06:46.427743",
+    "duration_seconds": 0.155,
+    "n_target_customers": 100,
+    "n_scored": 87,
+    "n_alerts": 2,
+    "blocked_nodes": [],
+    "node_trust": {
+      "bank": 1.0,
+      "lending_app": 1.0,
+      "insurer": 0.5
+    }
+  },
+  {
+    "round_id": "attack_random",
+    "timestamp": "2026-09-26T15:06:46.563053",
+    "duration_seconds": 0.132,
+    "n_target_customers": 100,
+    "n_scored": 92,
+    "n_alerts": 6,
+    "blocked_nodes": [],
+    "node_trust": {
+      "bank": 1.0,
+      "lending_app": 1.0,
+      "insurer": 1.0
+    }
+  },
+  {
+    "round_id": "attack_subtle",
+    "timestamp": "2026-09-26T15:06:46.692358",
+    "duration_seconds": 0.126,
+    "n_target_customers": 100,
+    "n_scored": 92,
+    "n_alerts": 2,
+    "blocked_nodes": [],
+    "node_trust": {
+      "bank": 1.0,
+      "lending_app": 1.0,
+      "insurer": 1.0
+    }
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "feature_weights": {
+    "claims_frequency_24m": 0.3,
+    "claim_rejection_fraud_flag": 0.2,
+    "premium_lapse_count": 0.15,
+    "policy_renewal_consistency": 0.15,
+    "active_policies_held": 0.1,
+    "sum_assured_inr": 0.05,
+    "customer_age": 0.05
+  },
+  "feature_stats": {
+    "claims_frequency_24m": {
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 2.2418181818181817,
+      "std": 2.0266162372474503
+    },
+    "claim_rejection_fraud_flag": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1618181818181818,
+      "std": 0.3686191972773855
+    },
+    "premium_lapse_count": {
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 1.201818181818182,
+      "std": 1.326895785620833
+    },
+    "policy_renewal_consistency": {
+      "min": 0.3175,
+      "max": 1.0,
+      "mean": 0.7886083636363637,
+      "std": 0.15106454742632605
+    },
+    "active_policies_held": {
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 2.890909090909091,
+      "std": 1.9207687372017377
+    },
+    "sum_assured_inr": {
+      "min": 100000.0,
+      "max": 4658608.0,
+      "mean": 2345472.9472727273,
+      "std": 890244.31097087
+    },
+    "customer_age": {
+      "min": 21.0,
+      "max": 71.0,
+      "mean": 39.7,
+      "std": 11.012784423797068
+    }
+  },
+  "metrics": {
+    "institution": "insurer",
+    "n_samples": 550,
+    "n_features": 7,
+    "test_auc_roc": 0.9914,
+    "cv_auc_mean": 0.9938,
+    "cv_auc_std": 0.0059
+  }
+}

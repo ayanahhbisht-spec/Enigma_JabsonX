@@ -1,0 +1,1151 @@
+[
+  {
+    "timestamp": "2026-09-26T15:06:46.126302",
+    "severity": "WARNING",
+    "source_node": "bank",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c72c0029f5e34ac3... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "c72c0029f5e34ac33ef02a3506f23b43d89f2130ab1771c55c8d8eabf7350998",
+      "submitted": 0.0,
+      "reference": 0.6227
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.126336",
+    "severity": "WARNING",
+    "source_node": "bank",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 16d3375a3da19961... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "16d3375a3da1996138c6baaf4b0aedbccfcf810565e48646c497c0a83eb72002",
+      "submitted": 0.0,
+      "reference": 0.6198
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.126343",
+    "severity": "WARNING",
+    "source_node": "bank",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 4b0bf271e167c4b6... deviates 0.64 from reference (submitted=0.00, ref=0.64).",
+    "details": {
+      "hashed_id": "4b0bf271e167c4b6233c5e64823cf1a27a4839233424ef8c99ae5eece44e5474",
+      "submitted": 0.0,
+      "reference": 0.6426
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.126408",
+    "severity": "WARNING",
+    "source_node": "bank",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1f4e758c8ed8b6eb... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "1f4e758c8ed8b6eb2deb8fbacfdde077ed288152e642a8e519d2b0b7290c7173",
+      "submitted": 0.0,
+      "reference": 0.6222
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.126980",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6ef349597e680fde... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "6ef349597e680fde9d4bfe931a11f89b513f9110f9e4d7b4fb92bb3f5c25b496",
+      "submitted": 0.0,
+      "reference": 0.7892
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127022",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 7c7fb2bb3aed8cad... deviates 0.61 from reference (submitted=0.10, ref=0.71).",
+    "details": {
+      "hashed_id": "7c7fb2bb3aed8cad59dfcb6034fecdf315e7ec69c30ec34c68d7a4c3ccdc82c7",
+      "submitted": 0.1,
+      "reference": 0.7135
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127029",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 0129225a7e1ee846... deviates 0.61 from reference (submitted=0.00, ref=0.61).",
+    "details": {
+      "hashed_id": "0129225a7e1ee84622d7ea17b674c5893041a8327140c5785d5a360230b94f3d",
+      "submitted": 0.0,
+      "reference": 0.6143
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127100",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 8047ae736906c906... deviates 0.63 from reference (submitted=0.00, ref=0.63).",
+    "details": {
+      "hashed_id": "8047ae736906c906847086b1ce220a7ea686f8f33a53e7ae285848513d8c8b95",
+      "submitted": 0.0,
+      "reference": 0.6317
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127588",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6df219487765a6fc... deviates 0.81 from reference (submitted=0.00, ref=0.81).",
+    "details": {
+      "hashed_id": "6df219487765a6fc8aa12423d240ccff820c5b93ce8b04248b1c58d619c0af85",
+      "submitted": 0.0,
+      "reference": 0.8118
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127598",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for a2c032df0f9b5c8f... deviates 0.63 from reference (submitted=0.10, ref=0.73).",
+    "details": {
+      "hashed_id": "a2c032df0f9b5c8fa7efdebab712292e99d76070bdcc985e5afb1a672b5cb46c",
+      "submitted": 0.1,
+      "reference": 0.7324
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127604",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for b1c2c00a6b36d001... deviates 0.69 from reference (submitted=0.10, ref=0.79).",
+    "details": {
+      "hashed_id": "b1c2c00a6b36d001cff101f1faef5514e216738637bb28ce07235911f5d941b0",
+      "submitted": 0.1,
+      "reference": 0.7915
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127607",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1af5b28e8e6687d0... deviates 0.69 from reference (submitted=0.10, ref=0.79).",
+    "details": {
+      "hashed_id": "1af5b28e8e6687d0116cd7ae31b242c22ac58c06a9aa6eca6b16a21c88525523",
+      "submitted": 0.1,
+      "reference": 0.7933
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127614",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c2177070eaff469d... deviates 0.63 from reference (submitted=0.10, ref=0.73).",
+    "details": {
+      "hashed_id": "c2177070eaff469da83c667af63671e3cebf5b6e0660fed66319ea82ad907c5a",
+      "submitted": 0.1,
+      "reference": 0.7302
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127618",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c41cebd14b6275be... deviates 0.64 from reference (submitted=0.00, ref=0.64).",
+    "details": {
+      "hashed_id": "c41cebd14b6275be7ce33cfff993a78ff21c936c3e1f663df06ab885747babb7",
+      "submitted": 0.0,
+      "reference": 0.6369
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127630",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6c50e5127de4378b... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "6c50e5127de4378b8e9c6863641b5bb0dce42e8a24257bfa1fdc4cf30333843b",
+      "submitted": 0.0,
+      "reference": 0.7859
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127634",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for a6ff3bf36bd4c3ae... deviates 0.90 from reference (submitted=0.00, ref=0.90).",
+    "details": {
+      "hashed_id": "a6ff3bf36bd4c3aea2c51ba4c4492de955911f54abbfd740b9739309d24c384f",
+      "submitted": 0.0,
+      "reference": 0.8962
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127639",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 7f276d018d26ced6... deviates 0.89 from reference (submitted=0.00, ref=0.89).",
+    "details": {
+      "hashed_id": "7f276d018d26ced67537be1ebf319cfb748ccf4d6824ec2ed116a9d5c6292f5b",
+      "submitted": 0.0,
+      "reference": 0.8881
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127643",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for de6fdb144186655d... deviates 0.61 from reference (submitted=0.00, ref=0.61).",
+    "details": {
+      "hashed_id": "de6fdb144186655d300d4426ffa11550a49fc2b6b17c70fef28c5b8689f9e585",
+      "submitted": 0.0,
+      "reference": 0.6096
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127648",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c524ae56fbc0c784... deviates 0.67 from reference (submitted=0.20, ref=0.87).",
+    "details": {
+      "hashed_id": "c524ae56fbc0c78409187cc081620ddd5f6c67d587d11e805d492f33edd9a0fa",
+      "submitted": 0.2,
+      "reference": 0.8702
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127651",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for cd952f86fc9c0578... deviates 0.84 from reference (submitted=0.00, ref=0.84).",
+    "details": {
+      "hashed_id": "cd952f86fc9c0578bd219051bfe5164eb0291b66669c02948cf2e8b9f9434330",
+      "submitted": 0.0,
+      "reference": 0.845
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127654",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 2f2f688c3f47a283... deviates 0.85 from reference (submitted=0.00, ref=0.85).",
+    "details": {
+      "hashed_id": "2f2f688c3f47a2831542953147c0b9f6aaf241d109aa75e6cb40185e29f83b13",
+      "submitted": 0.0,
+      "reference": 0.85
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127659",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for d53c9382a9a937dd... deviates 0.78 from reference (submitted=0.10, ref=0.88).",
+    "details": {
+      "hashed_id": "d53c9382a9a937dd4cce20b6ab6489e396f9348fb11431a54cf8801553d496f9",
+      "submitted": 0.1,
+      "reference": 0.8797
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127663",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 5171eeaef7c3ad22... deviates 0.65 from reference (submitted=0.00, ref=0.65).",
+    "details": {
+      "hashed_id": "5171eeaef7c3ad22b7e8c7f0cf4924f718d97bcb98b168350c76b01325ec55c1",
+      "submitted": 0.0,
+      "reference": 0.6548
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127666",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 13b43df0251e2eb9... deviates 0.63 from reference (submitted=0.00, ref=0.63).",
+    "details": {
+      "hashed_id": "13b43df0251e2eb9b99c9ce9ab6aec9e58302b0eacb556ee513a96eddeb52af2",
+      "submitted": 0.0,
+      "reference": 0.6312
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127670",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 88afc19ad20adc93... deviates 0.68 from reference (submitted=0.00, ref=0.68).",
+    "details": {
+      "hashed_id": "88afc19ad20adc93a803ed97cc68af036f1b972bf787099fefaa64350937b25b",
+      "submitted": 0.0,
+      "reference": 0.6799
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127676",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 05932f83ae4ae2ee... deviates 0.86 from reference (submitted=0.00, ref=0.86).",
+    "details": {
+      "hashed_id": "05932f83ae4ae2eee90aabbbc5f2818e538b93e0f9d6cfe729f700e47ebf7704",
+      "submitted": 0.0,
+      "reference": 0.864
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127679",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for a80d0987acf5a17b... deviates 0.77 from reference (submitted=0.00, ref=0.77).",
+    "details": {
+      "hashed_id": "a80d0987acf5a17b78a14d58b0fe3cd321dba1041db3c2983706358bd3acfb47",
+      "submitted": 0.0,
+      "reference": 0.7698
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127684",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 99fc1d63bf3979f2... deviates 0.72 from reference (submitted=0.00, ref=0.72).",
+    "details": {
+      "hashed_id": "99fc1d63bf3979f2765c5ad2ba25f00d5038cb19807d6c7efcd05ad35e71d2fd",
+      "submitted": 0.0,
+      "reference": 0.717
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127688",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 0163a0aa1a47ee22... deviates 0.61 from reference (submitted=0.00, ref=0.61).",
+    "details": {
+      "hashed_id": "0163a0aa1a47ee220ad7c18ef2f99bf07e475091c828f827e7d3c33b751e614b",
+      "submitted": 0.0,
+      "reference": 0.6136
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127691",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 564753c8a8c0fae4... deviates 0.61 from reference (submitted=0.30, ref=0.91).",
+    "details": {
+      "hashed_id": "564753c8a8c0fae4254dd59e32e828dda2b41773b602e71197349026e96b3f6e",
+      "submitted": 0.30000000000000004,
+      "reference": 0.9146
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127699",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for f7cd83ca42eaf01b... deviates 0.77 from reference (submitted=0.00, ref=0.77).",
+    "details": {
+      "hashed_id": "f7cd83ca42eaf01bf904ee0e758ab92278bba533bac6def0ede64f14446ff9fd",
+      "submitted": 0.0,
+      "reference": 0.7732
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127702",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6ce8459025b0595d... deviates 0.67 from reference (submitted=0.00, ref=0.67).",
+    "details": {
+      "hashed_id": "6ce8459025b0595d7a6f692c0c8b3537b45a26437914d198238acbc123b362be",
+      "submitted": 0.0,
+      "reference": 0.672
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127706",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1e153e1a100677dd... deviates 0.87 from reference (submitted=0.00, ref=0.87).",
+    "details": {
+      "hashed_id": "1e153e1a100677dd3fa3f5905ac7ac3e185be99921d3e01a8ccbbe9ec4102a22",
+      "submitted": 0.0,
+      "reference": 0.8735
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127709",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 32d1cd51208937bd... deviates 0.87 from reference (submitted=0.00, ref=0.87).",
+    "details": {
+      "hashed_id": "32d1cd51208937bdd6be0ba6f6baa62897d35ab2818abf06c284090ec82f09c9",
+      "submitted": 0.0,
+      "reference": 0.8655
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127713",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 90e4fa0f615a8f65... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "90e4fa0f615a8f65c86fec431b75f3d80d0f2b2663bdde9c4569b8dc11c352bf",
+      "submitted": 0.0,
+      "reference": 0.6174
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127717",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1db9ff15f356900a... deviates 0.68 from reference (submitted=0.20, ref=0.88).",
+    "details": {
+      "hashed_id": "1db9ff15f356900ae595058d4eaadff2cb2ee54caf2b9f618adeaefc7767b89b",
+      "submitted": 0.2,
+      "reference": 0.8768
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127720",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 71350d32bc3418a5... deviates 0.64 from reference (submitted=0.00, ref=0.64).",
+    "details": {
+      "hashed_id": "71350d32bc3418a5d9b2eb5afd04ee7cb40059ab79af5351b57140a7662ce344",
+      "submitted": 0.0,
+      "reference": 0.6445
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127723",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for b4fba492fc917749... deviates 0.61 from reference (submitted=0.00, ref=0.61).",
+    "details": {
+      "hashed_id": "b4fba492fc917749e64797281cd77481679eb436eece9472cceef92e18efeebc",
+      "submitted": 0.0,
+      "reference": 0.6075
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127726",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for ab904684f878c295... deviates 0.76 from reference (submitted=0.00, ref=0.76).",
+    "details": {
+      "hashed_id": "ab904684f878c295ea94bd91d259c5ef1acb17abd359d7fac09cf6f649a02db2",
+      "submitted": 0.0,
+      "reference": 0.7604
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127729",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 188f5b92610dc045... deviates 0.86 from reference (submitted=0.00, ref=0.86).",
+    "details": {
+      "hashed_id": "188f5b92610dc045aa596ebbb789516c62e64bfe1f4b4ac301c0bf81ccb27b1e",
+      "submitted": 0.0,
+      "reference": 0.8598
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127735",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6cb7f6fdf605ef95... deviates 0.67 from reference (submitted=0.00, ref=0.67).",
+    "details": {
+      "hashed_id": "6cb7f6fdf605ef958a20a6560332665b43a5d54acf959fd5fd0212ceadfbc3fd",
+      "submitted": 0.0,
+      "reference": 0.6713
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127741",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 72c7e6739376ad95... deviates 0.63 from reference (submitted=0.20, ref=0.83).",
+    "details": {
+      "hashed_id": "72c7e6739376ad954f6c34444f1f6a2613d149f1d767e4df33e9d619d7eb8d89",
+      "submitted": 0.2,
+      "reference": 0.8326
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127744",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for ce077b177de0e548... deviates 0.77 from reference (submitted=0.20, ref=0.97).",
+    "details": {
+      "hashed_id": "ce077b177de0e548cc2808cfeccd537e2232f3a7791a0731eb7b342bba3033db",
+      "submitted": 0.2,
+      "reference": 0.9737
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127748",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c72c0029f5e34ac3... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "c72c0029f5e34ac33ef02a3506f23b43d89f2130ab1771c55c8d8eabf7350998",
+      "submitted": 0.0,
+      "reference": 0.6227
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127753",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 135b267ef5afda52... deviates 0.69 from reference (submitted=0.20, ref=0.89).",
+    "details": {
+      "hashed_id": "135b267ef5afda522491f7104cd9e6fe5d9e64f30bcf355f8cca24a7476081b2",
+      "submitted": 0.2,
+      "reference": 0.891
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127755",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 76087e455001f944... deviates 0.72 from reference (submitted=0.00, ref=0.72).",
+    "details": {
+      "hashed_id": "76087e455001f944cd16510611927d79c9fc93d8ee244a5b69b21b78f0a9e727",
+      "submitted": 0.0,
+      "reference": 0.724
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127761",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 551dc652a5eab7de... deviates 0.74 from reference (submitted=0.00, ref=0.74).",
+    "details": {
+      "hashed_id": "551dc652a5eab7decda2f8dea1e7fde45da70c16e8947766b95791a18e836997",
+      "submitted": 0.0,
+      "reference": 0.7432
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127764",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for aeb6b650bee4c22e... deviates 0.68 from reference (submitted=0.00, ref=0.68).",
+    "details": {
+      "hashed_id": "aeb6b650bee4c22e229d76a7331038a7454508a3a8c046d08c3510eedb9d10dc",
+      "submitted": 0.0,
+      "reference": 0.6819
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127768",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 16ebcb6d8106c510... deviates 0.72 from reference (submitted=0.00, ref=0.72).",
+    "details": {
+      "hashed_id": "16ebcb6d8106c510a3e57bb6ae3f8ac8b81541ce9ace5cca0125921016866a54",
+      "submitted": 0.0,
+      "reference": 0.725
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127775",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 16d3375a3da19961... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "16d3375a3da1996138c6baaf4b0aedbccfcf810565e48646c497c0a83eb72002",
+      "submitted": 0.0,
+      "reference": 0.6198
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127778",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for bf44ed672b7b461b... deviates 0.97 from reference (submitted=0.00, ref=0.97).",
+    "details": {
+      "hashed_id": "bf44ed672b7b461b845eca3100b1e39c71b8d950b4635319ecd2dc7eaf79ac82",
+      "submitted": 0.0,
+      "reference": 0.9692
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127780",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for bddb54096040f46f... deviates 0.73 from reference (submitted=0.00, ref=0.73).",
+    "details": {
+      "hashed_id": "bddb54096040f46ffdf682673785cded41172022870757cd6776920f7ddcd79c",
+      "submitted": 0.0,
+      "reference": 0.7267
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127788",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 162079c53df4b1b8... deviates 0.74 from reference (submitted=0.00, ref=0.74).",
+    "details": {
+      "hashed_id": "162079c53df4b1b8739738ac115047cf616fd249c74d70753d87ec6bfa2ce968",
+      "submitted": 0.0,
+      "reference": 0.7391
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127795",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1f4a22549ee5caa3... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "1f4a22549ee5caa3818351ec90468df4f5c8c4e89e5ea3bbe184780157f92224",
+      "submitted": 0.0,
+      "reference": 0.6226
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127798",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 0f8c2c607ad788a7... deviates 0.67 from reference (submitted=0.10, ref=0.77).",
+    "details": {
+      "hashed_id": "0f8c2c607ad788a7a68ad4c3a0aa7658e9734c94f8beb6f61405e123199e25e3",
+      "submitted": 0.1,
+      "reference": 0.7719
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127801",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for abc1f31f5ad0042f... deviates 0.67 from reference (submitted=0.00, ref=0.67).",
+    "details": {
+      "hashed_id": "abc1f31f5ad0042fdb53c9db97d9f78ccead96e5b004eb6aa1c4bdb93050c2cf",
+      "submitted": 0.0,
+      "reference": 0.6739
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127805",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 54a79c402d8f7913... deviates 0.94 from reference (submitted=0.00, ref=0.94).",
+    "details": {
+      "hashed_id": "54a79c402d8f7913145b389118fa1f957935014e12d65bc03b65996ef5a92767",
+      "submitted": 0.0,
+      "reference": 0.9384
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127809",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 5e894f41e8c7bbec... deviates 0.71 from reference (submitted=0.00, ref=0.71).",
+    "details": {
+      "hashed_id": "5e894f41e8c7bbec9e935c42d3e71596edf4e927913640dc8d1ad56d998ed183",
+      "submitted": 0.0,
+      "reference": 0.715
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127814",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for fdf4462a111d8e23... deviates 0.74 from reference (submitted=0.10, ref=0.84).",
+    "details": {
+      "hashed_id": "fdf4462a111d8e23358b082e0715ca23ce8a9435e5fba6dc559ef1ef99d7cb5b",
+      "submitted": 0.1,
+      "reference": 0.8448
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127817",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 61e7b591da452550... deviates 0.71 from reference (submitted=0.10, ref=0.81).",
+    "details": {
+      "hashed_id": "61e7b591da452550b09836f665912b238bf0c1dd3734ba8012f9dfe2854aa341",
+      "submitted": 0.1,
+      "reference": 0.805
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127821",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 11b15263f2bab676... deviates 0.64 from reference (submitted=0.00, ref=0.64).",
+    "details": {
+      "hashed_id": "11b15263f2bab676fb96f3ad898e4c36e5b39e6e6dd5ae22239937258ad110ac",
+      "submitted": 0.0,
+      "reference": 0.6385
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127824",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 9386a64e3c1df714... deviates 0.65 from reference (submitted=0.00, ref=0.65).",
+    "details": {
+      "hashed_id": "9386a64e3c1df7144c7a0ab4f120e19c3279d920cb8faad85ca9afff3c04d82a",
+      "submitted": 0.0,
+      "reference": 0.652
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127832",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 71b1d5e3d4f32a4f... deviates 0.65 from reference (submitted=0.00, ref=0.65).",
+    "details": {
+      "hashed_id": "71b1d5e3d4f32a4f0364d59f6886978c225d3f9cda704a462fef5e1bbc5262b7",
+      "submitted": 0.0,
+      "reference": 0.6514
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127835",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for d94e84af79f6acfc... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "d94e84af79f6acfccf8295fc6bb94ab8da3ecb6b77c5694b828488a6385d6e80",
+      "submitted": 0.0,
+      "reference": 0.7893
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127840",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for ebc0f9f585f6a456... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "ebc0f9f585f6a456442bcf69707a7b61a73e62f781e07c12320fa791ae67bccc",
+      "submitted": 0.0,
+      "reference": 0.6204
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127843",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 0ca984be354196d0... deviates 0.73 from reference (submitted=0.00, ref=0.73).",
+    "details": {
+      "hashed_id": "0ca984be354196d012b9fa6f9bc3f75c03a6d768703598b3ce52e1b22024e9e9",
+      "submitted": 0.0,
+      "reference": 0.7258
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127847",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 25bec610044dfd9d... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "25bec610044dfd9d2ed5b75ce5d8b7b9fc6d7dbade945b73f29ed3ac5206aa17",
+      "submitted": 0.0,
+      "reference": 0.6217
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127850",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 980ee9b099cbd7b5... deviates 0.70 from reference (submitted=0.10, ref=0.80).",
+    "details": {
+      "hashed_id": "980ee9b099cbd7b50c7a5787d899e8442f5cd47d33f14c6c0a29c0cc0043db67",
+      "submitted": 0.1,
+      "reference": 0.7956
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127853",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 0490725b84884b8f... deviates 0.71 from reference (submitted=0.00, ref=0.71).",
+    "details": {
+      "hashed_id": "0490725b84884b8fc932717048280044e463d8ed0d41d4d149e14297349a7559",
+      "submitted": 0.0,
+      "reference": 0.7116
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127856",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for baaf940247f08713... deviates 0.76 from reference (submitted=0.00, ref=0.76).",
+    "details": {
+      "hashed_id": "baaf940247f0871306a4f325ce9a2585a62dd4343043d982a27fdd4797487de6",
+      "submitted": 0.0,
+      "reference": 0.7589
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127860",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for aa61ca420dac23fc... deviates 0.76 from reference (submitted=0.00, ref=0.76).",
+    "details": {
+      "hashed_id": "aa61ca420dac23fc2cc78659d5e1ec704ddf415dead3498d88bda6be3f17ec1d",
+      "submitted": 0.0,
+      "reference": 0.7649
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127864",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c3b61544c3a99387... deviates 0.69 from reference (submitted=0.10, ref=0.79).",
+    "details": {
+      "hashed_id": "c3b61544c3a993877f1279101a2e6da4c08beae91a12e09f37bb0fefa83d73b1",
+      "submitted": 0.1,
+      "reference": 0.7912
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127869",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for d4cb8907efb350d4... deviates 0.81 from reference (submitted=0.00, ref=0.81).",
+    "details": {
+      "hashed_id": "d4cb8907efb350d460f397bd5c85716b4e3e261e4c29964a8c0a5d83c6f3c672",
+      "submitted": 0.0,
+      "reference": 0.8111
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127874",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 83b6509ac82c5168... deviates 0.71 from reference (submitted=0.10, ref=0.81).",
+    "details": {
+      "hashed_id": "83b6509ac82c5168cb353d5d41fcd5b2dd5035c63614333452a63c246e8af2f5",
+      "submitted": 0.1,
+      "reference": 0.8071
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127877",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 22b43dc8faf97651... deviates 0.62 from reference (submitted=0.30, ref=0.92).",
+    "details": {
+      "hashed_id": "22b43dc8faf97651c71f2c6105f8caf9eea11ff3b8fe984a9321db7c4264f26b",
+      "submitted": 0.30000000000000004,
+      "reference": 0.9208
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127882",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for d67a5edb8936331e... deviates 0.71 from reference (submitted=0.00, ref=0.71).",
+    "details": {
+      "hashed_id": "d67a5edb8936331eb618fc1142af2e00db1cefe54d735adbb780fd4395291910",
+      "submitted": 0.0,
+      "reference": 0.7147
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127885",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 2def0f62f4385dd0... deviates 0.75 from reference (submitted=0.00, ref=0.75).",
+    "details": {
+      "hashed_id": "2def0f62f4385dd062d8177ca28d2e80ad9e1024348d146f25b856b8bb0e5590",
+      "submitted": 0.0,
+      "reference": 0.7518
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127890",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for ef737ff76668d4e6... deviates 0.73 from reference (submitted=0.10, ref=0.83).",
+    "details": {
+      "hashed_id": "ef737ff76668d4e6262440f2387b4e6541cf364df16f2c1be09ce1d3e999de4c",
+      "submitted": 0.1,
+      "reference": 0.8334
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127893",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 9f243efc884423d8... deviates 0.73 from reference (submitted=0.00, ref=0.73).",
+    "details": {
+      "hashed_id": "9f243efc884423d8b3365055e5566ee9ef883b3a64295604f733dd338d60bc5a",
+      "submitted": 0.0,
+      "reference": 0.7328
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127896",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 8de04fde5f5e29d1... deviates 0.86 from reference (submitted=0.10, ref=0.96).",
+    "details": {
+      "hashed_id": "8de04fde5f5e29d1bf593ce450a3f6252016c1c53ccb501a38b951738b6af49b",
+      "submitted": 0.1,
+      "reference": 0.96
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127900",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1f4e758c8ed8b6eb... deviates 0.62 from reference (submitted=0.00, ref=0.62).",
+    "details": {
+      "hashed_id": "1f4e758c8ed8b6eb2deb8fbacfdde077ed288152e642a8e519d2b0b7290c7173",
+      "submitted": 0.0,
+      "reference": 0.6222
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127904",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 4996f19617192f7f... deviates 0.72 from reference (submitted=0.00, ref=0.72).",
+    "details": {
+      "hashed_id": "4996f19617192f7f3c8d057876d20831b5a26230096ca27879d1de921c1acbba",
+      "submitted": 0.0,
+      "reference": 0.7244
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127907",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for e3e9717e2a1ecde7... deviates 0.69 from reference (submitted=0.00, ref=0.69).",
+    "details": {
+      "hashed_id": "e3e9717e2a1ecde79e2be50f5dd6ff96ff77f823da8b4619a8e68dc23d9075ad",
+      "submitted": 0.0,
+      "reference": 0.6916
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.127911",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for c80693043f922eb1... deviates 0.70 from reference (submitted=0.00, ref=0.70).",
+    "details": {
+      "hashed_id": "c80693043f922eb1f188b4d0ff9982a80ed23096a93d1f4198715ac5171a9c52",
+      "submitted": 0.0,
+      "reference": 0.6952
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.268860",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6ef349597e680fde... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "6ef349597e680fde9d4bfe931a11f89b513f9110f9e4d7b4fb92bb3f5c25b496",
+      "submitted": 0.0,
+      "reference": 0.7892
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.268972",
+    "severity": "BLOCKED",
+    "source_node": "insurer",
+    "alert_type": "SCORE_INVERSION",
+    "message": "Submitted scores show NEGATIVE correlation (-0.451) with reference. This indicates an inversion attack. Submission BLOCKED.",
+    "details": {
+      "correlation": -0.45109160066433457,
+      "n_overlap": 49
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.405950",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6ef349597e680fde... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "6ef349597e680fde9d4bfe931a11f89b513f9110f9e4d7b4fb92bb3f5c25b496",
+      "submitted": 0.0,
+      "reference": 0.7892
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.427469",
+    "severity": "CRITICAL",
+    "source_node": "insurer",
+    "alert_type": "CONSTANT_SCORES",
+    "message": "All scores are essentially constant (\u03c3=0.0000). This provides no discriminative signal and may be an attack.",
+    "details": {
+      "batch_std": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.562596",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6ef349597e680fde... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "6ef349597e680fde9d4bfe931a11f89b513f9110f9e4d7b4fb92bb3f5c25b496",
+      "submitted": 0.0,
+      "reference": 0.7892
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.562768",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6df219487765a6fc... deviates 0.81 from reference (submitted=0.00, ref=0.81).",
+    "details": {
+      "hashed_id": "6df219487765a6fc8aa12423d240ccff820c5b93ce8b04248b1c58d619c0af85",
+      "submitted": 0.0,
+      "reference": 0.8118
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.562778",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for d637cb7836284127... deviates 0.70 from reference (submitted=0.90, ref=0.20).",
+    "details": {
+      "hashed_id": "d637cb78362841278d4c96b235d68855f5d31e228699060b740f26bd2de79d2b",
+      "submitted": 0.9,
+      "reference": 0.1992
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.562782",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 3f457bcab95c0a3b... deviates 0.74 from reference (submitted=0.80, ref=0.06).",
+    "details": {
+      "hashed_id": "3f457bcab95c0a3bf245ff696e703af2b576286060bcbf8f611c3fc1854bf4c1",
+      "submitted": 0.8,
+      "reference": 0.0644
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.562785",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 413e6cd2c08697a4... deviates 0.66 from reference (submitted=0.70, ref=0.04).",
+    "details": {
+      "hashed_id": "413e6cd2c08697a46e5704ebf0705f589d07cd570c47befdaf6a673e6596c574",
+      "submitted": 0.7,
+      "reference": 0.04
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.562791",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 1808b25cd9c752cb... deviates 0.78 from reference (submitted=1.00, ref=0.22).",
+    "details": {
+      "hashed_id": "1808b25cd9c752cb673f07e6b22439079fa38cec157f386d8be10846a3276bf0",
+      "submitted": 1.0,
+      "reference": 0.2237
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.691901",
+    "severity": "WARNING",
+    "source_node": "lending_app",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6ef349597e680fde... deviates 0.79 from reference (submitted=0.00, ref=0.79).",
+    "details": {
+      "hashed_id": "6ef349597e680fde9d4bfe931a11f89b513f9110f9e4d7b4fb92bb3f5c25b496",
+      "submitted": 0.0,
+      "reference": 0.7892
+    }
+  },
+  {
+    "timestamp": "2026-09-26T15:06:46.692088",
+    "severity": "WARNING",
+    "source_node": "insurer",
+    "alert_type": "INDIVIDUAL_OUTLIER",
+    "message": "Score for 6df219487765a6fc... deviates 0.61 from reference (submitted=0.20, ref=0.81).",
+    "details": {
+      "hashed_id": "6df219487765a6fc8aa12423d240ccff820c5b93ce8b04248b1c58d619c0af85",
+      "submitted": 0.2,
+      "reference": 0.8118
+    }
+  }
+]
