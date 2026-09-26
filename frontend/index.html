@@ -1,58 +1,598 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Federated Risk Intelligence</title>
+    <title>FEDRISK — Federated Financial Intelligence</title>
+
+    <meta
+        name="description"
+        content="Cross-institution financial risk control powered by federated learning."
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- =========================================
+         NAVBAR
+    ========================================== -->
+
     <nav class="navbar">
 
-        <div class="logo">
-            FEDRISK
-        </div>
+        <a href="#" class="logo">
+            <span class="logo-mark">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+            <span class="logo-text">FEDRISK</span>
+        </a>
 
         <div class="nav-links">
-            <a href="#how-it-works">How it Works</a>
+            <a href="#how-it-works">How It Works</a>
             <a href="#network">Federated Network</a>
             <a href="#risk">Risk Intelligence</a>
             <a href="#privacy">Privacy</a>
         </div>
 
-        <button class="nav-button">
+        <a href="#dashboard" class="nav-button">
             Enter Dashboard
-        </button>
+            <span>↗</span>
+        </a>
 
     </nav>
-    <section class="hero">
 
-    <div class="hero-content">
 
-        <p class="hero-label">FEDERATED FINANCIAL INTELLIGENCE</p>
+    <!-- =========================================
+         HERO
+    ========================================== -->
 
-        <h1>
-            Better Risk Intelligence.
-            <span>Without Moving Data.</span>
-        </h1>
+    <main>
 
-        <p class="hero-description">
-            Financial institutions collaborate on stronger risk models
-            while keeping sensitive customer data within their own systems.
-        </p>
+        <section class="hero">
 
-        <div class="hero-buttons">
-            <button class="primary-button">Explore Network</button>
-            <button class="secondary-button">How It Works</button>
-        </div>
+            <!-- Background network -->
+            <div class="hero-network" aria-hidden="true">
 
-    </div>
+                <div class="network-grid"></div>
 
-</section>
-    <script src="script.js"></script>
-</body>
-</html>
+                <div class="network-orbit orbit-one"></div>
+                <div class="network-orbit orbit-two"></div>
+                <div class="network-orbit orbit-three"></div>
+
+                <div class="network-line line-one"></div>
+                <div class="network-line line-two"></div>
+                <div class="network-line line-three"></div>
+                <div class="network-line line-four"></div>
+
+                <div class="network-node node-one"></div>
+                <div class="network-node node-two"></div>
+                <div class="network-node node-three"></div>
+                <div class="network-node node-four"></div>
+                <div class="network-node node-five"></div>
+                <div class="network-node node-six"></div>
+
+            </div>
+
+
+            <div class="hero-content">
+
+                <div class="hero-label">
+                    <span class="status-dot"></span>
+                    FEDERATED FINANCIAL INTELLIGENCE
+                </div>
+
+                <h1>
+                    One network.<br>
+                    <span>Separate data.</span><br>
+                    Shared intelligence.
+                </h1>
+
+                <p class="hero-description">
+                    Cross-institution financial risk control powered by
+                    federated learning. Overcome siloed data and build
+                    sharper risk models without moving raw customer data.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#network" class="primary-button">
+                        Enter Federated Network
+                        <span>→</span>
+                    </a>
+
+                    <a href="#how-it-works" class="secondary-button">
+                        How It Works
+                    </a>
+
+                </div>
+
+
+                <!-- Small hero indicators -->
+
+                <div class="hero-meta">
+
+                    <div class="hero-meta-item">
+                        <span class="meta-icon">◈</span>
+                        <div>
+                            <strong>LOCAL DATA</strong>
+                            <small>Stays in place</small>
+                        </div>
+                    </div>
+
+                    <div class="meta-divider"></div>
+
+                    <div class="hero-meta-item">
+                        <span class="meta-icon">⌁</span>
+                        <div>
+                            <strong>MODEL UPDATES</strong>
+                            <small>Move across the network</small>
+                        </div>
+                    </div>
+
+                    <div class="meta-divider"></div>
+
+                    <div class="hero-meta-item">
+                        <span class="meta-icon">◉</span>
+                        <div>
+                            <strong>SHARED MODEL</strong>
+                            <small>Collective intelligence</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-fade"></div>
+
+        </section>
+
+
+        <!-- =========================================
+             HOW IT WORKS
+        ========================================== -->
+
+        <section class="feature-section" id="how-it-works">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <div class="section-eyebrow">
+                        <span></span>
+                        THE PROBLEM → THE SOLUTION
+                    </div>
+
+                    <h2>
+                        Risk intelligence shouldn't<br>
+                        require shared customer data.
+                    </h2>
+
+                    <p>
+                        Financial institutions see different parts of the
+                        same risk landscape. Federated learning allows them
+                        to learn collectively while keeping sensitive data local.
+                    </p>
+
+                </div>
+
+
+                <!-- Three connected cards -->
+
+                <div class="feature-cards">
+
+
+                    <!-- CARD 1 -->
+
+                    <article class="feature-card privacy-card">
+
+                        <div class="card-number">
+                            01
+                        </div>
+
+                        <div class="card-icon vault-icon">
+
+                            <div class="vault-body">
+                                <div class="vault-lock">
+                                    <span></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="card-label">
+                                THE PRIVACY PROBLEM
+                            </div>
+
+                            <h3>
+                                Valuable data.<br>
+                                Separate silos.
+                            </h3>
+
+                            <p>
+                                Banks, insurers and lending platforms hold
+                                valuable risk signals, but raw customer data
+                                cannot simply be pooled across institutions.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="footer-dot"></span>
+                            Raw customer data stays local
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 2 -->
+
+                    <article class="feature-card intelligence-card">
+
+                        <div class="card-number">
+                            02
+                        </div>
+
+                        <div class="card-label">
+                            FEDERATED INTELLIGENCE
+                        </div>
+
+                        <h3>
+                            Learn together.<br>
+                            Keep data local.
+                        </h3>
+
+                        <div class="intelligence-grid">
+
+                            <div class="intelligence-item">
+                                <span class="mini-icon">◌</span>
+                                <div>
+                                    <strong>Decentralized</strong>
+                                    <small>Training</small>
+                                </div>
+                            </div>
+
+                            <div class="intelligence-item">
+                                <span class="mini-icon">⌁</span>
+                                <div>
+                                    <strong>Anomaly</strong>
+                                    <small>Detection</small>
+                                </div>
+                            </div>
+
+                            <div class="intelligence-item">
+                                <span class="mini-icon">◇</span>
+                                <div>
+                                    <strong>Thin-File</strong>
+                                    <small>Scoring</small>
+                                </div>
+                            </div>
+
+                            <div class="intelligence-item">
+                                <span class="mini-icon">0</span>
+                                <div>
+                                    <strong>Zero Data</strong>
+                                    <small>Movement</small>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="footer-dot"></span>
+                            Model updates move — raw records don't
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 3 -->
+
+                    <article class="feature-card insights-card">
+
+                        <div class="card-number">
+                            03
+                        </div>
+
+                        <div class="card-label">
+                            NETWORK INSIGHTS
+                        </div>
+
+                        <h3>
+                            See beyond<br>
+                            individual silos.
+                        </h3>
+
+                        <div class="mini-network">
+
+                            <div class="mini-institutions">
+
+                                <div class="mini-institution">
+                                    <span class="institution-dot"></span>
+                                    Bank A
+                                </div>
+
+                                <div class="mini-institution">
+                                    <span class="institution-dot"></span>
+                                    Bank B
+                                </div>
+
+                                <div class="mini-institution">
+                                    <span class="institution-dot"></span>
+                                    Insurer
+                                </div>
+
+                                <div class="mini-institution">
+                                    <span class="institution-dot"></span>
+                                    Lending
+                                </div>
+
+                            </div>
+
+                            <div class="mini-connector">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="aggregation-box">
+
+                                <div class="aggregation-icon">
+                                    ◉
+                                </div>
+
+                                <div>
+                                    <strong>FEDERATED</strong>
+                                    <small>AGGREGATION</small>
+                                </div>
+
+                            </div>
+
+                            <div class="mini-result">
+
+                                <span class="result-line"></span>
+
+                                <div>
+                                    <strong>SHARED RISK MODEL</strong>
+                                    <small>Collective intelligence</small>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="footer-dot"></span>
+                            Patterns emerge across the network
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             FEDERATED NETWORK
+        ========================================== -->
+
+        <section class="network-section" id="network">
+
+            <div class="network-background">
+                <div class="network-bg-grid"></div>
+            </div>
+
+            <div class="section-container">
+
+                <div class="network-intro">
+
+                    <div class="section-eyebrow">
+                        <span></span>
+                        FEDERATED NETWORK
+                    </div>
+
+                    <h2>
+                        Data stays where it belongs.<br>
+                        <span>Intelligence travels.</span>
+                    </h2>
+
+                    <p>
+                        Each institution trains locally on its own data.
+                        Only model updates are contributed to the federated
+                        process, allowing the shared model to learn from
+                        distributed signals.
+                    </p>
+
+                </div>
+
+
+                <!-- Main federated flow -->
+
+                <div class="federated-flow">
+
+
+                    <!-- Institution A -->
+
+                    <div class="institution-node institution-a">
+
+                        <div class="institution-header">
+                            <span class="node-status"></span>
+                            INSTITUTION 01
+                        </div>
+
+                        <div class="institution-icon">
+                            <span>⌂</span>
+                        </div>
+
+                        <h3>Bank A</h3>
+
+                        <div class="local-data">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="institution-label">
+                            LOCAL DATA
+                        </div>
+
+                    </div>
+
+
+                    <!-- Institution B -->
+
+                    <div class="institution-node institution-b">
+
+                        <div class="institution-header">
+                            <span class="node-status"></span>
+                            INSTITUTION 02
+                        </div>
+
+                        <div class="institution-icon">
+                            <span>⌁</span>
+                        </div>
+
+                        <h3>Bank B</h3>
+
+                        <div class="local-data">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="institution-label">
+                            LOCAL DATA
+                        </div>
+
+                    </div>
+
+
+                    <!-- Institution C -->
+
+                    <div class="institution-node institution-c">
+
+                        <div class="institution-header">
+                            <span class="node-status"></span>
+                            INSTITUTION 03
+                        </div>
+
+                        <div class="institution-icon">
+                            <span>◇</span>
+                        </div>
+
+                        <h3>Insurer</h3>
+
+                        <div class="local-data">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="institution-label">
+                            LOCAL DATA
+                        </div>
+
+                    </div>
+
+
+                    <!-- Institution D -->
+
+                    <div class="institution-node institution-d">
+
+                        <div class="institution-header">
+                            <span class="node-status"></span>
+                            INSTITUTION 04
+                        </div>
+
+                        <div class="institution-icon">
+                            <span>+</span>
+                        </div>
+
+                        <h3>Lending</h3>
+
+                        <div class="local-data">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="institution-label">
+                            LOCAL DATA
+                        </div>
+
+                    </div>
+
+
+                    <!-- Central aggregator -->
+
+                    <div class="aggregator">
+
+                        <div class="aggregator-ring ring-outer"></div>
+                        <div class="aggregator-ring ring-middle"></div>
+
+                        <div class="aggregator-core">
+                            <span>◉</span>
+                        </div>
+
+                        <div class="aggregator-label">
+                            <strong>FEDERATED</strong>
+                            <span>AGGREGATOR</span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Flow lines -->
+
+                    <div class="flow-line flow-a">
+                        <span class="flow-pulse"></span>
+                    </div>
+
+                    <div class="flow-line flow-b">
+                        <span class="flow-pulse"></span>
+                    </div>
+
+                    <div class="flow-line flow-c">
+                        <span class="flow-pulse"></span>
+                    </div>
+
+                    <div class="flow-line flow-d">
+                        <span class="flow-pulse"></span>
+                    </div>
+
+
+                    <!-- Shared model -->
+
+                    <div class="shared-model">
+
+                        <div class="shared-model-icon">
+                            ◈
+                        </div>
+
+                        <div class="shared-model-content">
+                            <span>OUTPUT</span>
+                            <strong>SHARED RISK MODEL</strong>
+                            <small>Aggregated model intelligence</small>
+                        </div>
+
+                        <div class="model-signal">
+                            <span></span>
+                            <span></span>
+```
